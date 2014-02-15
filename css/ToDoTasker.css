@@ -1,0 +1,54 @@
+body {
+  font-family: italic arial,sans-serif;
+  text-align: center;overflow-y:hidden;min-height:600px;
+}
+#container {
+  margin: 0 auto;
+  width: 300px;
+  
+}
+#taskForm{
+  margin: 10px 0px 0px 0px;
+}
+#taskForm , #addButton{
+  display: none;
+}
+.recordTitle {
+  list-style: none;
+  text-align: center;
+  width: 200px;
+  margin: 3px;
+  padding: 4px;
+  clear: both;
+  font-size: 16px;
+  max-width: 200px;
+  overflow: hidden;
+  /* Display with ellipsis for truncated text instead of newline */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.icon-ok, .icon-remove {
+  cursor: pointer;
+}
+#myTab {
+  margin-top: 10px;
+}
+#detailTodo, #alert, #detailDone {
+  width: 240px;
+  margin-left: -120px;
+}
+#detailTodo input {
+  width: 150px;
+}
+#detailTodo textarea, #detailDone textarea {
+  width: 180px;
+}
+h5 {
+  margin-top: 0;  
+}
+.modal-body {
+  padding-bottom: 5px;
+}
+h4,h5 {
+  color: rgb(110,110,110);
+}

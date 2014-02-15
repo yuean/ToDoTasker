@@ -1,0 +1,18 @@
+{  
+  "name": "ToDoTasker",  
+  "version": "0.1.0",
+   "manifest_version": 2, 
+  "description": "Management everyday's task lists.",  
+  "browser_action": {  
+    "default_icon": "icon.png" ,
+    "default_title": "ToDoTasker",
+    "default_popup": "popup.html"
+  },
+  "background": {
+  	"page": "background.html"
+  },
+  "permissions": ["notifications"],
+  "web_accessible_resources": [
+    "/img/icon.jpg"
+  ]
+}
