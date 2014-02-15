@@ -267,19 +267,19 @@ $(document).ready(function($) {
     $('#taskForm').show();
     $(this).parent().hide();
     $('#addButton').show();
-
   });
 
   $('#addButton').click(function(event) {
     var title = judge();
     var timer = $('#inputCalender').val();
+    $('#inputCalender').val('');
     
     if (title) {
       var rowData = {title:title, status:'todo'};
       var now = new Date();
       rowData.rtTime = Date.parse(now);
 
-      $('#taskForm').hide();      
+      $('#taskForm').hide();
       $('#addTask').parent().show();
       $(this).hide();
       

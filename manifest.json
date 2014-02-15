@@ -1,6 +1,6 @@
 {  
   "name": "ToDoTasker",  
-  "version": "0.1.0",
+  "version": "1.0.1",
    "manifest_version": 2, 
   "description": "Management everyday's task lists.",  
   "browser_action": {  
